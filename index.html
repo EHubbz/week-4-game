@@ -5,30 +5,124 @@
 <head>
 
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial scale=1.0">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<script type="text/javascript" src="assets/JavaScript/game.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	
  
-	<title></title>
+	<title>Crystal Collector</title>
 
+	<style type="text/css">
+	
+	h1 {
+		font-size: 50px;
+		text-align: center;
+	}
+	
+	header {border-style: solid;
+			background-color: grey;
+			padding: 20px;
+			margin: 5px;
+	}
+	
+	p {font-size: 14px;
+		text-align: center;
+		background-color: lightgrey;
+		padding: 15px;
+		border-style: solid;
+	}
+
+	#info {margin: 3px;
+	}
+
+	#magicNum {border-style: solid;
+		padding: 20px;
+	
+
+	}
+
+	#wins {border-style: solid;
+		padding: 20px;
+		
+
+	}
+	#losses {border-style: solid;
+		padding: 20px;
+		
+	}
+
+	#gems {
+		margin: 3px;
+	}
+
+	#first {
+		border-style: solid;
+		background-color: black;
+	}
+	#second {border-style: solid;
+		background-color: black;
+
+	}
+	#third {border-style: solid;
+		background-color: black;
+	}
+	#fourth {border-style: solid;
+		background-color: black;
+		
+	}
+	#yourNum {border-style: solid;
+		padding: 20px;
+
+	}
+
+
+
+
+	</style>
+	
 
 </head>
 
+
 <body>
 	
-	<header></header>
-	
+	<header><h1>Crystal Collector</h1>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<p>You will be given a random number at the begining of the game.</p>
+			<p> There are four crystals below. By clikcing on each crystal you will add a specific amount of points to your total score.</p> 
+			<p> The value of each crystal is hidden from you until you click on it.</p>
+			<p> You win the game by matching your total score to the random number. If you go over the random number you lose! </p>
+		</div>
+
+		<div id="info" class="row">
+			<div id="magicNum" class="col-md-6">The magic number to guess is:</div>
+			<div id="wins" class="col-md-3">Wins:</div>
+			<div id="losses" class="col-md-3">Losses:</div>
+		</div>
+
+		<div id="gems" class="row">
+			<div id="first" class="col-md-3"><img style="max-height: 200px; max-width: 200px;" src="assets/images/diamond.gif"></div>
+			<div id="second" class="col-md-3"><img style="max-height: 200px; max-width: 200px;" src="assets/images/emerald.gif"></div>
+			<div id="third" class="col-md-3"><img style="max-height: 200px; max-width: 200px;" src="assets/images/ruby.gif"></div>
+			<div id="fourth" class="col-md-3"><img style="max-height: 200px; max-width: 200px;" src="assets/images/sapphire.gif"></div>
+		</div>
+
+		<div id="yourNum">Your Number So Far:</div>
+	</div>
 
 	<footer></footer>
 
+<script type="text/javascript" src="assets/JavaScript/game.js"></script>
 
 </body>
 </html>
 
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.7.7/lux/bootstrap.min.css"
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
