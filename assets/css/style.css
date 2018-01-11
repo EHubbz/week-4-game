@@ -1,0 +1,57 @@
+h1 {
+		font-size: 50px;
+		text-align: center;
+	}
+	
+	header {border-style: solid;
+			background-color: grey;
+			padding: 20px;
+			margin: 5px;
+	}
+	
+	p {font-size: 14px;
+		text-align: center;
+		background-color: lightgrey;
+		padding: 15px;
+		border-style: solid;
+	}
+
+	#info {margin: 3px;
+	}
+
+	#magicNum {border-style: solid;
+		padding: 20px;
+	}
+
+	#wins {border-style: solid;
+		padding: 20px;
+	}
+	
+	#losses {border-style: solid;
+		padding: 20px;
+	}
+
+	#gems {
+		margin: 3px;
+	}
+
+	#first {border-style: solid;
+		background-color: black;
+	}
+	
+	#second {border-style: solid;
+		background-color: black;
+	}
+	
+	#third {border-style: solid;
+		background-color: black;
+	}
+	
+	#fourth {border-style: solid;
+		background-color: black;
+		
+	}
+	#yourNum {border-style: solid;
+		padding: 20px;
+
+	}
